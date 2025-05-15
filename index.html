@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DOM Manipulation Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to My Page</h1>
+  </header>
+
+  <nav>
+    <p>This is a demo for DOM interaction using JavaScript.</p>
+  </nav>
+
+  <main>
+    <section>
+      <p id="changeable-text">This text will change when you click the button below.</p>
+      <button onclick="changeText()">Change Text</button>
+    </section>
+
+    <section>
+      <button onclick="toggleStyle()">Toggle Background Color</button>
+    </section>
+
+    <section>
+      <button onclick="addElement()">Add Item</button>
+      <button onclick="removeElement()">Remove Item</button>
+      <ul id="item-list">
+        <li>Example Item</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My DOM Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
